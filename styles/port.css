@@ -162,8 +162,38 @@ font-size: 18px;
     color: #474747;
     font-size: 30px;  
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .resume-container{
     display: flex;
+    gap: 50px;
+
+}
+
+.resume-item-des{
+    color:  #757575;
+    font-size: 16px;
+}
+
+.resume-item-inst{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 10px;
+margin-top: 0px;
+}
+
+.resume-item-t{
+    color: #474747;
+    font-size: 25px;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
