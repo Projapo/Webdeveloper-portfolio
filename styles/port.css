@@ -55,11 +55,40 @@ nav a{
 /*Header related style */
 .header-style{
     background-color: #FFF8F3;
+    background-image: url(../imagess/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
+.banner .pp{
+    width: 500px;
+}
+.banner-g{
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: #474747;
+}
+.banner-t{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom:20px;
+}
+
+.banner-p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.banner-content{
+    max-width: 500px;
+}
